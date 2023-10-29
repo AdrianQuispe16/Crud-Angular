@@ -1,0 +1,93 @@
+
+<div class="container fondo-color">
+    
+<div class="container ">
+    <div class="row justify-content-center">
+        <div class="col"> 
+            <h1 class="text-center texto-blanco"> 😀💪 Ventajas y Desventjas de Angular 😀💪</h1>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="row">
+                <div class="col-md-6">
+                    <button class="btn btn-primary btn-block texto-blanco" (click)="activo='primero'">Ventaja</button>
+                </div>
+                <div class="col-md-6">
+                    <button class="btn btn-danger btn-block texto-blanco" (click)="activo='segundo'">Desventaja</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container d-none" [ngClass]="{'d-block': activo=='primero'}">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="text-center">
+                <h2 class="texto-blanco"> ✅ Ventajas ✅ </h2>
+            </div>
+            
+            <br>
+            <ul>
+                <li class="texto-blanco"><samp class="font-weight-bold ">🗣️ Lenguaje Typescript:</samp> tiene una sintaxis muy parecida a Java, con tipado estático. Esto te va a ayudar a que tu código tenga menos errores.</li>
+                <li class="texto-blanco"><samp class="font-weight-bold">👷 Sigue el patrón MVC (Modelo - Vista - Controlador):</samp> con la vista separada de la lógica de negocio.</li>
+                <li class="texto-blanco"><samp class="font-weight-bold">🧱 Basado en componentes:</samp> es decir, piezas de código con vista que puedes reutilizar en otras páginas.</li>
+                <li class="texto-blanco"><samp class="font-weight-bold">👨‍👩‍👦 Comunidad muy grande:</samp> con multitud de tutoriales y librerías.</li>
+                <li class="texto-blanco"><samp class="font-weight-bold">💉 Inyección de dependencias:</samp> un patrón de diseño que se basa en pasar las dependencias directamente a los objetos en lugar de crearlas localmente.</li>
+                <li class="texto-blanco"><samp class="font-weight-bold">🏃 Programación reactiva:</samp> la vista se actualiza automáticamente a los cambios en las variables.</li>
+                <li class="texto-blanco"><samp class="font-weight-bold">🕴️ Dispone de asistente:</samp> por línea de comandos para crear proyectos base (Angular cli).</li>
+                <li class="texto-blanco"><samp class="font-weight-bold">⚙️ Se integra:</samp> bien con herramientas de testing.</li>
+                <li class="texto-blanco"><samp class="font-weight-bold">📱 Buena integración con Ionic:</samp> para adaptar aplicaciones web a dispositivos móviles.</li>
+                <li class="texto-blanco"><samp class="font-weight-bold">💻 Framework completo:</samp> No necesitas instalar demasiadas librerías externas para hacer cosas comunes.</li>
+                <li class="texto-blanco"><samp class="font-weight-bold">🔎 Apoyado por Google:</samp> Esto consigue que por lo general tenga mejor soporte y documentación.</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="container d-none" [ngClass]="{'d-block': activo=='primero'}"> 
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="text-center">
+                <img src="../../assets/img/v.avif" class="img-fluid" alt="Mi imagen">
+            </div>
+        </div>
+    </div>
+</div>
+<br>
+<div class="container d-none" [ngClass]="{'d-block': activo=='segundo'}">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="text-center">
+                <h2 class="texto-blanco">
+                    😞 Desventaja 
+                    😞</h2>
+            </div>
+           
+            <br>
+            <ul>
+                <li class="texto-blanco"><samp class="font-weight-bold">📚 Curva de aprendizaje empinada:</samp> Aunque es fácil aprender Angular en las etapas básicas, a medida que se avanza hacia las etapas avanzadas, la curva de aprendizaje puede volverse empinada. Algunas características únicas de Angular son complejas, lo que puede resultar en un desafío para los desarrolladores.</li>
+                <br>
+                <li class="texto-blanco"><samp class="font-weight-bold">🔍 Opciones limitadas de SEO:</samp> El problema principal con las SPA (Aplicaciones de Página Única) es la indexación en los motores de búsqueda. Los motores aún necesitan ver el contenido y los elementos de la página en la fuente para garantizar una indexación adecuada. Aunque Angular tiene una herramienta llamada "Angular Universal" para abordar este problema, aún queda camino por recorrer para mejorar la accesibilidad de los rastreadores de motores de búsqueda.</li>
+                <br>
+                <li class="texto-blanco"><samp class="font-weight-bold">🔄 Varias versiones de Angular:</samp> Angular ha lanzado muchas versiones desde la versión 2, generando 2 lanzamientos por año. Esto puede resultar en la necesidad de actualizaciones frecuentes, lo que a veces puede ser un desafío para los equipos de DevOps y desarrollo.</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="container d-none" [ngClass]="{'d-block': activo=='segundo'}">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="text-center">
+                <img src="../../assets/img/d.png" class="img-fluid" alt="Mi imagen">
+            </div>
+        </div>
+    </div>
+</div>
+
+</div>

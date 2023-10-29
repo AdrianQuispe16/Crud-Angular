@@ -1,0 +1,32 @@
+body {
+    background-color: #18161b;
+  }
+  .navbar.bg-danger {
+    background-color: red; 
+}
+
+.texto-blanco {
+    color: white;
+    font-size: 28px;
+  }
+  
+
+.navbar-nav > li {
+    color: white;
+    font-weight: bold;
+    margin-right: 15px; 
+}
+.navbar-nav{
+    color: white;
+    margin-left: 900px;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    font-weight: bold;
+}
+
+a{
+    font-size: 30px;
+}

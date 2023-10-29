@@ -1,0 +1,31 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-danger">
+  <div class="container-fluid">
+    <div class="d-flex align-items-center">
+      <a class="navbar-brand" href="/">
+        <img src="../../assets/img/angular.png" alt="" class="d-inline-block align-text-top white">
+      </a>
+      <div class="me-auto">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </div>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto" routerLinkActive="active">
+        <li class="nav-item " routerLinkActive="active">
+          <a class="nav-link texto-blanco" [routerLink]="['/']" href="#"> <samp 
+            class="texto-blanco">Angular</samp> <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item" routerLinkActive="active">
+          <a class="nav-link texto-blanco" [routerLink]="['/cuerpo']" 
+          href="#"><samp class="texto-blanco">Ventajas y Desventajas</samp></a>
+        </li>
+        <li class="nav-item" routerLinkActive="active">
+          <a class="nav-link texto-blanco" [routerLink]="['/primero']" 
+          href="#"><samp class="texto-blanco">Crud</samp></a>
+        </li>
+      </ul>
+    </div>
+    
+  </div>
+</nav>
